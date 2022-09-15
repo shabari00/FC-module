@@ -40,7 +40,7 @@ function largestElement(array,n)
     let max = array[0];
     for(i=0;i<n;i++)
     {
-        if(max<=array[i])
+        if(max<array[i])//1 8 90 56 7 
         {
             max=array[i];
         }
